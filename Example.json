@@ -1,0 +1,42 @@
+{
+  "filters": [
+    {
+      "property": "field1",
+      "value": "value1",
+      "operator": "exact"
+    },
+    {
+      "property": "field2",
+      "value": "value2",
+      "operator": "like"
+    },
+    {
+      "property": "field5",
+      "valueFrom": "value3",
+      "valueTo": "value4",
+      "operator": "between"
+    },
+    {
+      "property": "field6",
+      "value": "value5",
+      "operator": ">"
+    },
+    {
+      "property": "field7",
+      "value": "value6",
+      "operator": "<"
+    }
+  ],
+  "c": [
+    {
+      "property": "field3",
+      "type": "ASC"
+    },
+    {
+      "property": "field4",
+      "type": "DESC"
+    }
+  ],
+  "pageNumber": 2,
+  "pageSize": 10
+}
